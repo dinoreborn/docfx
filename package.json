@@ -1,0 +1,28 @@
+{
+  "name": "docapisol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:js": "node node_modules/node2docfx/node2docfx.js js/js2docfx.json",
+    "run:js": "docfx js/docfxjs.json --serve",
+    "clean:js": "rimraf js/_site && rimraf js/obj && rimraf js/yml",
+    "build:ts": "typedoc --json ts/api.json ts/product --module commonjs --includeDeclarations --ignoreCompilerErrors --excludeExternals && type2docfx ts/api.json ts/yml",
+    "run:ts": "docfx ts/docfxts.json --serve",
+    "serve:ts": "npm run build:ts && npm run run:ts",
+    "clean:ts": "rimraf ts/_site && rimraf ts/obj && rimraf ts/yml && rimraf ts/api.json",
+    "clean:all": "npm run clean:js && npm run clean:ts && rimraf node_modules"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node2docfx": "^1.0.44",
+    "rimraf": "^2.6.2",
+    "type2docfx": "^0.9.112",
+    "typedoc": "^0.13.0"
+  },
+  "dependencies": {
+    "azure-batch": "^4.0.1"
+  }
+}
