@@ -1,0 +1,71 @@
+### YamlMime:UniversalReference
+items:
+  - uid: docapisol.MethodParams
+    name: MethodParams
+    fullName: MethodParams
+    children:
+      - docapisol.MethodParams.connectTimeoutInSeconds
+      - docapisol.MethodParams.methodName
+      - docapisol.MethodParams.payload
+      - docapisol.MethodParams.responseTimeoutInSeconds
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: docapisol
+  - uid: docapisol.MethodParams.connectTimeoutInSeconds
+    name: connectTimeoutInSeconds
+    fullName: connectTimeoutInSeconds
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'connectTimeoutInSeconds: number'
+      return:
+        type:
+          - number
+    package: docapisol
+  - uid: docapisol.MethodParams.methodName
+    name: methodName
+    fullName: methodName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'methodName: string'
+      return:
+        type:
+          - string
+    package: docapisol
+  - uid: docapisol.MethodParams.payload
+    name: payload
+    fullName: payload
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'payload: any'
+      return:
+        type:
+          - any
+    package: docapisol
+  - uid: docapisol.MethodParams.responseTimeoutInSeconds
+    name: responseTimeoutInSeconds
+    fullName: responseTimeoutInSeconds
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'responseTimeoutInSeconds: number'
+      return:
+        type:
+          - number
+    package: docapisol

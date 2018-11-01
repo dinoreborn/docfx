@@ -1,0 +1,12 @@
+### YamlMime:UniversalReference
+items:
+  - uid: docapisol.TransportCtor
+    name: TransportCtor
+    fullName: TransportCtor
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: |+
+
+    package: docapisol

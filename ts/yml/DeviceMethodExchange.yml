@@ -1,0 +1,54 @@
+### YamlMime:UniversalReference
+items:
+  - uid: docapisol.DeviceMethodExchange
+    name: DeviceMethodExchange
+    fullName: DeviceMethodExchange
+    children:
+      - docapisol.DeviceMethodExchange.request
+      - docapisol.DeviceMethodExchange.response
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: docapisol
+  - uid: docapisol.DeviceMethodExchange.request
+    name: request
+    fullName: request
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'request: DeviceMethodRequest'
+      return:
+        type:
+          - docapisol.DeviceMethodRequest
+    package: docapisol
+  - uid: docapisol.DeviceMethodExchange.response
+    name: response
+    fullName: response
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'response: DeviceMethodResponse'
+      return:
+        type:
+          - docapisol.DeviceMethodResponse
+    package: docapisol
+references:
+  - uid: docapisol.DeviceMethodRequest
+    name: DeviceMethodRequest
+    spec.typeScript:
+      - name: DeviceMethodRequest
+        fullName: DeviceMethodRequest
+        uid: docapisol.DeviceMethodRequest
+  - uid: docapisol.DeviceMethodResponse
+    name: DeviceMethodResponse
+    spec.typeScript:
+      - name: DeviceMethodResponse
+        fullName: DeviceMethodResponse
+        uid: docapisol.DeviceMethodResponse

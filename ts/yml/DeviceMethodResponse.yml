@@ -1,0 +1,146 @@
+### YamlMime:UniversalReference
+items:
+  - uid: docapisol.DeviceMethodResponse
+    name: DeviceMethodResponse
+    fullName: DeviceMethodResponse
+    children:
+      - docapisol.DeviceMethodResponse.constructor
+      - docapisol.DeviceMethodResponse.isResponseComplete
+      - docapisol.DeviceMethodResponse.payload
+      - docapisol.DeviceMethodResponse.requestId
+      - docapisol.DeviceMethodResponse.send
+      - docapisol.DeviceMethodResponse.status
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      a <xref:azure-iot-device.DeviceMethodResponse> object is provided to the
+      user with each <xref:azure-iot-device.DeviceMethodRequest> allowing the
+      user to construct and send a
+
+      well-formatted response back to the service for each device method call.
+
+      An instance of this class is passed as the second parameter to the
+      callback registered via <xref:azure-iot-device.Client.onDeviceMethod>.
+    package: docapisol
+  - uid: docapisol.DeviceMethodResponse.constructor
+    name: DeviceMethodResponse
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new DeviceMethodResponse(requestId: string, transport: DeviceTransport)'
+      parameters:
+        - id: requestId
+          type:
+            - string
+          description: ''
+        - id: transport
+          type:
+            - docapisol.DeviceTransport
+          description: ''
+    package: docapisol
+  - uid: docapisol.DeviceMethodResponse.isResponseComplete
+    name: isResponseComplete
+    fullName: isResponseComplete
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Boolean indicating whether the response has been sent already.
+    syntax:
+      content: 'isResponseComplete: boolean = false'
+      return:
+        type:
+          - boolean
+    package: docapisol
+  - uid: docapisol.DeviceMethodResponse.payload
+    name: payload
+    fullName: payload
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'The payload of the response, sent back to the caller on the service side.'
+    syntax:
+      content: 'payload: any'
+      return:
+        type:
+          - any
+    package: docapisol
+  - uid: docapisol.DeviceMethodResponse.requestId
+    name: requestId
+    fullName: requestId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The request identifier supplied by the service for this device method
+      call.
+    syntax:
+      content: 'requestId: string'
+      return:
+        type:
+          - string
+    package: docapisol
+  - uid: docapisol.DeviceMethodResponse.send
+    name: send
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Sends the device method's response back to the service via
+                         the underlying transport object using the status parameter
+                         as the status of the method call.
+    syntax:
+      content: >-
+        function send(status: number, payload?: any | ErrorCallback, done?:
+        ErrorCallback)
+      parameters:
+        - id: status
+          type:
+            - number
+          description: |-
+            A numeric status code to be sent back to the
+                                           service.
+        - id: payload
+          type:
+            - any | ErrorCallback
+          description: ''
+          optional: true
+        - id: done
+          type:
+            - ErrorCallback
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<void> | void
+    package: docapisol
+  - uid: docapisol.DeviceMethodResponse.status
+    name: status
+    fullName: status
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Status code indicating whether the method succeeded (200) or not (any
+      other number that is not 200).
+    syntax:
+      content: 'status: number'
+      return:
+        type:
+          - number
+    package: docapisol
+references:
+  - uid: docapisol.DeviceTransport
+    name: DeviceTransport
+    spec.typeScript:
+      - name: DeviceTransport
+        fullName: DeviceTransport
+        uid: docapisol.DeviceTransport

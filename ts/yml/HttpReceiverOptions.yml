@@ -1,0 +1,105 @@
+### YamlMime:UniversalReference
+items:
+  - uid: docapisol.HttpReceiverOptions
+    name: HttpReceiverOptions
+    fullName: HttpReceiverOptions
+    children:
+      - docapisol.HttpReceiverOptions.at
+      - docapisol.HttpReceiverOptions.cron
+      - docapisol.HttpReceiverOptions.drain
+      - docapisol.HttpReceiverOptions.interval
+      - docapisol.HttpReceiverOptions.manualPolling
+    langs:
+      - typeScript
+    type: interface
+    summary: >
+      Options structure used to configure how often the HTTP receiver polls for
+      messages.
+
+      Each of these options is mutually exclusive, except for the `drain`
+      boolean. Only one `interval`, `at`, `cron` or `manualPolling` shall be
+      present in the options structure.
+
+      This is configured by calling <xref:Client.setOptions> with this as a
+      property named `receivePolicy` inside of an <xref:HttpTransportOptions>
+      object which is inside of an <xref:DeviceClientOptions> object.
+    package: docapisol
+  - uid: docapisol.HttpReceiverOptions.at
+    name: at
+    fullName: at
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Use this option to configure the receiver to receive only once at a
+      specific time.
+    optional: true
+    syntax:
+      content: 'at?: Date'
+      return:
+        type:
+          - Date
+    package: docapisol
+  - uid: docapisol.HttpReceiverOptions.cron
+    name: cron
+    fullName: cron
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Use a cron-formatted string
+    optional: true
+    syntax:
+      content: 'cron?: string'
+      return:
+        type:
+          - string
+    package: docapisol
+  - uid: docapisol.HttpReceiverOptions.drain
+    name: drain
+    fullName: drain
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Boolean indicating whether only one message should be received all
+      messages should be drained.
+    optional: true
+    syntax:
+      content: 'drain?: boolean'
+      return:
+        type:
+          - boolean
+    package: docapisol
+  - uid: docapisol.HttpReceiverOptions.interval
+    name: interval
+    fullName: interval
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Interval **in seconds** at which the Azure IoT hub is going to be polled.
+    optional: true
+    syntax:
+      content: 'interval?: number'
+      return:
+        type:
+          - number
+    package: docapisol
+  - uid: docapisol.HttpReceiverOptions.manualPolling
+    name: manualPolling
+    fullName: manualPolling
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Does not poll and instead rely on the user calling the `receive` method.
+    optional: true
+    syntax:
+      content: 'manualPolling?: boolean'
+      return:
+        type:
+          - boolean
+    package: docapisol

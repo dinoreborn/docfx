@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: docapisol.MethodResult
+    name: MethodResult
+    fullName: MethodResult
+    children:
+      - docapisol.MethodResult.payload
+      - docapisol.MethodResult.status
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: docapisol
+  - uid: docapisol.MethodResult.payload
+    name: payload
+    fullName: payload
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'payload: any'
+      return:
+        type:
+          - any
+    package: docapisol
+  - uid: docapisol.MethodResult.status
+    name: status
+    fullName: status
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'status: number'
+      return:
+        type:
+          - number
+    package: docapisol

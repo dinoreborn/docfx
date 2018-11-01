@@ -1,0 +1,97 @@
+### YamlMime:UniversalReference
+items:
+  - uid: docapisol
+    name: docapisol
+    summary: ''
+    children:
+      - docapisol.createWithSharedAccessKey
+      - docapisol.createWithX509Certificate
+      - docapisol.parse
+      - docapisol.Client
+      - docapisol.DeviceMethodExchange
+      - docapisol.createDeviceMethodExchange
+      - docapisol.DeviceMethodRequest
+      - docapisol.DeviceMethodResponse
+      - docapisol.MethodParams
+      - docapisol.MethodResult
+      - docapisol.MethodCallback
+      - docapisol.AmqpTransportOptions
+      - docapisol.DeviceClientOptions
+      - docapisol.HttpReceiverOptions
+      - docapisol.HttpTransportOptions
+      - docapisol.MqttTransportOptions
+      - docapisol.BlobUpload
+      - docapisol.DeviceTransport
+      - docapisol.TransportCtor
+      - docapisol.IotEdgeAuthenticationProvider
+      - docapisol.ModuleClient
+      - docapisol.SharedAccessKeyAuthenticationProvider
+      - docapisol.SharedAccessSignatureAuthenticationProvider
+      - docapisol.create
+      - docapisol.parse
+      - docapisol.Twin
+      - docapisol.TwinProperties
+      - docapisol.getUserAgentString
+      - docapisol.X509AuthenticationProvider
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: docapisol.createWithSharedAccessKey
+    name: createWithSharedAccessKey
+  - uid: docapisol.createWithX509Certificate
+    name: createWithX509Certificate
+  - uid: docapisol.parse
+    name: parse
+  - uid: docapisol.Client
+    name: Client
+  - uid: docapisol.DeviceMethodExchange
+    name: DeviceMethodExchange
+  - uid: docapisol.createDeviceMethodExchange
+    name: createDeviceMethodExchange
+  - uid: docapisol.DeviceMethodRequest
+    name: DeviceMethodRequest
+  - uid: docapisol.DeviceMethodResponse
+    name: DeviceMethodResponse
+  - uid: docapisol.MethodParams
+    name: MethodParams
+  - uid: docapisol.MethodResult
+    name: MethodResult
+  - uid: docapisol.MethodCallback
+    name: MethodCallback
+  - uid: docapisol.AmqpTransportOptions
+    name: AmqpTransportOptions
+  - uid: docapisol.DeviceClientOptions
+    name: DeviceClientOptions
+  - uid: docapisol.HttpReceiverOptions
+    name: HttpReceiverOptions
+  - uid: docapisol.HttpTransportOptions
+    name: HttpTransportOptions
+  - uid: docapisol.MqttTransportOptions
+    name: MqttTransportOptions
+  - uid: docapisol.BlobUpload
+    name: BlobUpload
+  - uid: docapisol.DeviceTransport
+    name: DeviceTransport
+  - uid: docapisol.TransportCtor
+    name: TransportCtor
+  - uid: docapisol.IotEdgeAuthenticationProvider
+    name: IotEdgeAuthenticationProvider
+  - uid: docapisol.ModuleClient
+    name: ModuleClient
+  - uid: docapisol.SharedAccessKeyAuthenticationProvider
+    name: SharedAccessKeyAuthenticationProvider
+  - uid: docapisol.SharedAccessSignatureAuthenticationProvider
+    name: SharedAccessSignatureAuthenticationProvider
+  - uid: docapisol.create
+    name: create
+  - uid: docapisol.parse
+    name: parse
+  - uid: docapisol.Twin
+    name: Twin
+  - uid: docapisol.TwinProperties
+    name: TwinProperties
+  - uid: docapisol.getUserAgentString
+    name: getUserAgentString
+  - uid: docapisol.X509AuthenticationProvider
+    name: X509AuthenticationProvider

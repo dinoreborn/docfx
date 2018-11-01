@@ -1,0 +1,45 @@
+### YamlMime:UniversalReference
+items:
+  - uid: docapisol.createDeviceMethodExchange
+    name: createDeviceMethodExchange
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createDeviceMethodExchange(request: DeviceMethodRequest,
+        response: DeviceMethodResponse)
+      parameters:
+        - id: request
+          type:
+            - docapisol.DeviceMethodRequest
+          description: ''
+        - id: response
+          type:
+            - docapisol.DeviceMethodResponse
+          description: ''
+      return:
+        type:
+          - docapisol.DeviceMethodExchange
+    package: docapisol
+references:
+  - uid: docapisol.DeviceMethodRequest
+    name: DeviceMethodRequest
+    spec.typeScript:
+      - name: DeviceMethodRequest
+        fullName: DeviceMethodRequest
+        uid: docapisol.DeviceMethodRequest
+  - uid: docapisol.DeviceMethodResponse
+    name: DeviceMethodResponse
+    spec.typeScript:
+      - name: DeviceMethodResponse
+        fullName: DeviceMethodResponse
+        uid: docapisol.DeviceMethodResponse
+  - uid: docapisol.DeviceMethodExchange
+    name: DeviceMethodExchange
+    spec.typeScript:
+      - name: DeviceMethodExchange
+        fullName: DeviceMethodExchange
+        uid: docapisol.DeviceMethodExchange

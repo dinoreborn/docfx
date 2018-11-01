@@ -1,0 +1,6 @@
+{
+    "source": {
+      "include": ["product/azurebatch"]
+    },
+    "destination": "yml"
+  }

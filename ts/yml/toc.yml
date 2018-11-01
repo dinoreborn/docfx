@@ -1,0 +1,69 @@
+- uid: docapisol
+  name: docapisol
+  items:
+    - uid: docapisol.AmqpTransportOptions
+      name: AmqpTransportOptions
+      items: []
+    - uid: docapisol.BlobUpload
+      name: BlobUpload
+      items: []
+    - uid: docapisol.Client
+      name: Client
+      items: []
+    - uid: docapisol.DeviceClientOptions
+      name: DeviceClientOptions
+      items: []
+    - uid: docapisol.DeviceMethodExchange
+      name: DeviceMethodExchange
+      items: []
+    - uid: docapisol.DeviceMethodRequest
+      name: DeviceMethodRequest
+      items: []
+    - uid: docapisol.DeviceMethodResponse
+      name: DeviceMethodResponse
+      items: []
+    - uid: docapisol.DeviceTransport
+      name: DeviceTransport
+      items: []
+    - uid: docapisol.HttpReceiverOptions
+      name: HttpReceiverOptions
+      items: []
+    - uid: docapisol.HttpTransportOptions
+      name: HttpTransportOptions
+      items: []
+    - uid: docapisol.IotEdgeAuthenticationProvider
+      name: IotEdgeAuthenticationProvider
+      items: []
+    - uid: docapisol.MethodCallback
+      name: MethodCallback
+      items: []
+    - uid: docapisol.MethodParams
+      name: MethodParams
+      items: []
+    - uid: docapisol.MethodResult
+      name: MethodResult
+      items: []
+    - uid: docapisol.ModuleClient
+      name: ModuleClient
+      items: []
+    - uid: docapisol.MqttTransportOptions
+      name: MqttTransportOptions
+      items: []
+    - uid: docapisol.SharedAccessKeyAuthenticationProvider
+      name: SharedAccessKeyAuthenticationProvider
+      items: []
+    - uid: docapisol.SharedAccessSignatureAuthenticationProvider
+      name: SharedAccessSignatureAuthenticationProvider
+      items: []
+    - uid: docapisol.TransportCtor
+      name: TransportCtor
+      items: []
+    - uid: docapisol.Twin
+      name: Twin
+      items: []
+    - uid: docapisol.TwinProperties
+      name: TwinProperties
+      items: []
+    - uid: docapisol.X509AuthenticationProvider
+      name: X509AuthenticationProvider
+      items: []

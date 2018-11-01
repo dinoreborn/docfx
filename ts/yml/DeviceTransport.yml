@@ -1,0 +1,605 @@
+### YamlMime:UniversalReference
+items:
+  - uid: docapisol.DeviceTransport
+    name: DeviceTransport
+    fullName: DeviceTransport
+    children:
+      - docapisol.DeviceTransport.abandon
+      - docapisol.DeviceTransport.complete
+      - docapisol.DeviceTransport.connect
+      - docapisol.DeviceTransport.disableC2D
+      - docapisol.DeviceTransport.disableInputMessages
+      - docapisol.DeviceTransport.disableMethods
+      - docapisol.DeviceTransport.disableTwinDesiredPropertiesUpdates
+      - docapisol.DeviceTransport.disconnect
+      - docapisol.DeviceTransport.enableC2D
+      - docapisol.DeviceTransport.enableInputMessages
+      - docapisol.DeviceTransport.enableMethods
+      - docapisol.DeviceTransport.enableTwinDesiredPropertiesUpdates
+      - docapisol.DeviceTransport.getTwin
+      - docapisol.DeviceTransport.on
+      - docapisol.DeviceTransport.on_1
+      - docapisol.DeviceTransport.on_2
+      - docapisol.DeviceTransport.on_3
+      - docapisol.DeviceTransport.on_4
+      - docapisol.DeviceTransport.onDeviceMethod
+      - docapisol.DeviceTransport.reject
+      - docapisol.DeviceTransport.sendEvent
+      - docapisol.DeviceTransport.sendEventBatch
+      - docapisol.DeviceTransport.sendMethodResponse
+      - docapisol.DeviceTransport.sendOutputEvent
+      - docapisol.DeviceTransport.sendOutputEventBatch
+      - docapisol.DeviceTransport.setOptions
+      - docapisol.DeviceTransport.updateSharedAccessSignature
+      - docapisol.DeviceTransport.updateTwinReportedProperties
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: EventEmitter
+    package: docapisol
+  - uid: docapisol.DeviceTransport.abandon
+    name: abandon
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function abandon(message: Message, done: (err?: Error, results?:
+        results.MessageAbandoned) => void)
+      parameters:
+        - id: message
+          type:
+            - Message
+          description: ''
+        - id: done
+          type:
+            - '(err?: Error, results?: results.MessageAbandoned) => void'
+          description: ''
+    package: docapisol
+  - uid: docapisol.DeviceTransport.complete
+    name: complete
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function complete(message: Message, done: (err?: Error, result?:
+        results.MessageCompleted) => void)
+      parameters:
+        - id: message
+          type:
+            - Message
+          description: ''
+        - id: done
+          type:
+            - '(err?: Error, result?: results.MessageCompleted) => void'
+          description: ''
+    package: docapisol
+  - uid: docapisol.DeviceTransport.connect
+    name: connect
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function connect(done: (err?: Error, result?: results.Connected) =>
+        void)
+      parameters:
+        - id: done
+          type:
+            - '(err?: Error, result?: results.Connected) => void'
+          description: ''
+    package: docapisol
+  - uid: docapisol.DeviceTransport.disableC2D
+    name: disableC2D
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function disableC2D(callback: (err?: Error) => void)'
+      parameters:
+        - id: callback
+          type:
+            - '(err?: Error) => void'
+          description: ''
+    package: docapisol
+  - uid: docapisol.DeviceTransport.disableInputMessages
+    name: disableInputMessages
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function disableInputMessages(callback: (err?: Error) => void)'
+      parameters:
+        - id: callback
+          type:
+            - '(err?: Error) => void'
+          description: ''
+    package: docapisol
+  - uid: docapisol.DeviceTransport.disableMethods
+    name: disableMethods
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function disableMethods(callback: (err?: Error) => void)'
+      parameters:
+        - id: callback
+          type:
+            - '(err?: Error) => void'
+          description: ''
+    package: docapisol
+  - uid: docapisol.DeviceTransport.disableTwinDesiredPropertiesUpdates
+    name: disableTwinDesiredPropertiesUpdates
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function disableTwinDesiredPropertiesUpdates(callback: (err?: Error) =>
+        void)
+      parameters:
+        - id: callback
+          type:
+            - '(err?: Error) => void'
+          description: ''
+    package: docapisol
+  - uid: docapisol.DeviceTransport.disconnect
+    name: disconnect
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function disconnect(done: (err?: Error, result?: results.Disconnected)
+        => void)
+      parameters:
+        - id: done
+          type:
+            - '(err?: Error, result?: results.Disconnected) => void'
+          description: ''
+    package: docapisol
+  - uid: docapisol.DeviceTransport.enableC2D
+    name: enableC2D
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function enableC2D(callback: (err?: Error) => void)'
+      parameters:
+        - id: callback
+          type:
+            - '(err?: Error) => void'
+          description: ''
+    package: docapisol
+  - uid: docapisol.DeviceTransport.enableInputMessages
+    name: enableInputMessages
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function enableInputMessages(callback: (err?: Error) => void)'
+      parameters:
+        - id: callback
+          type:
+            - '(err?: Error) => void'
+          description: ''
+    package: docapisol
+  - uid: docapisol.DeviceTransport.enableMethods
+    name: enableMethods
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function enableMethods(callback: (err?: Error) => void)'
+      parameters:
+        - id: callback
+          type:
+            - '(err?: Error) => void'
+          description: ''
+    package: docapisol
+  - uid: docapisol.DeviceTransport.enableTwinDesiredPropertiesUpdates
+    name: enableTwinDesiredPropertiesUpdates
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function enableTwinDesiredPropertiesUpdates(callback: (err?: Error) =>
+        void)
+      parameters:
+        - id: callback
+          type:
+            - '(err?: Error) => void'
+          description: ''
+    package: docapisol
+  - uid: docapisol.DeviceTransport.getTwin
+    name: getTwin
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getTwin(callback: (err?: Error, twin?: TwinProperties) => void)'
+      parameters:
+        - id: callback
+          type:
+            - '(err?: Error, twin?: TwinProperties) => void'
+          description: ''
+    package: docapisol
+  - uid: docapisol.DeviceTransport.on
+    name: 'on'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(type: "error", func: (err: Error) => void)'
+      parameters:
+        - id: type
+          type:
+            - '"error"'
+          description: ''
+        - id: func
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+    package: docapisol
+  - uid: docapisol.DeviceTransport.on_1
+    name: 'on'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(type: "disconnect", func: (err?: Error) => void)'
+      parameters:
+        - id: type
+          type:
+            - '"disconnect"'
+          description: ''
+        - id: func
+          type:
+            - '(err?: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+    package: docapisol
+  - uid: docapisol.DeviceTransport.on_2
+    name: 'on'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(type: "message", func: (msg: Message) => void)'
+      parameters:
+        - id: type
+          type:
+            - '"message"'
+          description: ''
+        - id: func
+          type:
+            - '(msg: Message) => void'
+          description: ''
+      return:
+        type:
+          - this
+    package: docapisol
+  - uid: docapisol.DeviceTransport.on_3
+    name: 'on'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function on(type: "twinDesiredPropertiesUpdate", func: (desiredProps:
+        any) => void)
+      parameters:
+        - id: type
+          type:
+            - '"twinDesiredPropertiesUpdate"'
+          description: ''
+        - id: func
+          type:
+            - '(desiredProps: any) => void'
+          description: ''
+      return:
+        type:
+          - this
+    package: docapisol
+  - uid: docapisol.DeviceTransport.on_4
+    name: 'on'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function on(type: "inputMessage", func: (inputName: string, msg:
+        Message) => void)
+      parameters:
+        - id: type
+          type:
+            - '"inputMessage"'
+          description: ''
+        - id: func
+          type:
+            - '(inputName: string, msg: Message) => void'
+          description: ''
+      return:
+        type:
+          - this
+    package: docapisol
+  - uid: docapisol.DeviceTransport.onDeviceMethod
+    name: onDeviceMethod
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function onDeviceMethod(methodName: string, methodCallback: (request:
+        MethodMessage, response: DeviceMethodResponse) => void)
+      parameters:
+        - id: methodName
+          type:
+            - string
+          description: ''
+        - id: methodCallback
+          type:
+            - '(request: MethodMessage, response: DeviceMethodResponse) => void'
+          description: ''
+    package: docapisol
+  - uid: docapisol.DeviceTransport.reject
+    name: reject
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function reject(message: Message, done: (err?: Error, results?:
+        results.MessageRejected) => void)
+      parameters:
+        - id: message
+          type:
+            - Message
+          description: ''
+        - id: done
+          type:
+            - '(err?: Error, results?: results.MessageRejected) => void'
+          description: ''
+    package: docapisol
+  - uid: docapisol.DeviceTransport.sendEvent
+    name: sendEvent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function sendEvent(message: Message, done: (err?: Error, result?:
+        results.MessageEnqueued) => void)
+      parameters:
+        - id: message
+          type:
+            - Message
+          description: ''
+        - id: done
+          type:
+            - '(err?: Error, result?: results.MessageEnqueued) => void'
+          description: ''
+    package: docapisol
+  - uid: docapisol.DeviceTransport.sendEventBatch
+    name: sendEventBatch
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function sendEventBatch(messages: Message[], done: (err?: Error,
+        result?: results.MessageEnqueued) => void)
+      parameters:
+        - id: messages
+          type:
+            - 'Message[]'
+          description: ''
+        - id: done
+          type:
+            - '(err?: Error, result?: results.MessageEnqueued) => void'
+          description: ''
+    package: docapisol
+  - uid: docapisol.DeviceTransport.sendMethodResponse
+    name: sendMethodResponse
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function sendMethodResponse(response: DeviceMethodResponse, done?:
+        (err?: Error, result?: any) => void)
+      parameters:
+        - id: response
+          type:
+            - docapisol.DeviceMethodResponse
+          description: ''
+        - id: done
+          type:
+            - '(err?: Error, result?: any) => void'
+          description: ''
+          optional: true
+    package: docapisol
+  - uid: docapisol.DeviceTransport.sendOutputEvent
+    name: sendOutputEvent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function sendOutputEvent(outputName: string, message: Message, done:
+        (err?: Error, result?: results.MessageEnqueued) => void)
+      parameters:
+        - id: outputName
+          type:
+            - string
+          description: ''
+        - id: message
+          type:
+            - Message
+          description: ''
+        - id: done
+          type:
+            - '(err?: Error, result?: results.MessageEnqueued) => void'
+          description: ''
+    package: docapisol
+  - uid: docapisol.DeviceTransport.sendOutputEventBatch
+    name: sendOutputEventBatch
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function sendOutputEventBatch(outputName: string, messages: Message[],
+        done: (err?: Error, result?: results.MessageEnqueued) => void)
+      parameters:
+        - id: outputName
+          type:
+            - string
+          description: ''
+        - id: messages
+          type:
+            - 'Message[]'
+          description: ''
+        - id: done
+          type:
+            - '(err?: Error, result?: results.MessageEnqueued) => void'
+          description: ''
+    package: docapisol
+  - uid: docapisol.DeviceTransport.setOptions
+    name: setOptions
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function setOptions(options: DeviceClientOptions, done: (err?: Error,
+        result?: results.TransportConfigured) => void)
+      parameters:
+        - id: options
+          type:
+            - docapisol.DeviceClientOptions
+          description: ''
+        - id: done
+          type:
+            - '(err?: Error, result?: results.TransportConfigured) => void'
+          description: ''
+    package: docapisol
+  - uid: docapisol.DeviceTransport.updateSharedAccessSignature
+    name: updateSharedAccessSignature
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function updateSharedAccessSignature(sharedAccessSignature: string,
+        done: (err?: Error, result?: results.SharedAccessSignatureUpdated) =>
+        void)
+      parameters:
+        - id: sharedAccessSignature
+          type:
+            - string
+          description: ''
+        - id: done
+          type:
+            - >-
+              (err?: Error, result?: results.SharedAccessSignatureUpdated) =>
+              void
+          description: ''
+    package: docapisol
+  - uid: docapisol.DeviceTransport.updateTwinReportedProperties
+    name: updateTwinReportedProperties
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function updateTwinReportedProperties(patch: any, callback: (err?:
+        Error) => void)
+      parameters:
+        - id: patch
+          type:
+            - any
+          description: ''
+        - id: callback
+          type:
+            - '(err?: Error) => void'
+          description: ''
+    package: docapisol
+references:
+  - uid: docapisol.DeviceMethodResponse
+    name: DeviceMethodResponse
+    spec.typeScript:
+      - name: DeviceMethodResponse
+        fullName: DeviceMethodResponse
+        uid: docapisol.DeviceMethodResponse
+  - uid: docapisol.DeviceClientOptions
+    name: DeviceClientOptions
+    spec.typeScript:
+      - name: DeviceClientOptions
+        fullName: DeviceClientOptions
+        uid: docapisol.DeviceClientOptions

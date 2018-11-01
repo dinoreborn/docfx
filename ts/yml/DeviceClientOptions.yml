@@ -1,0 +1,109 @@
+### YamlMime:UniversalReference
+items:
+  - uid: docapisol.DeviceClientOptions
+    name: DeviceClientOptions
+    fullName: DeviceClientOptions
+    children:
+      - docapisol.DeviceClientOptions.amqp
+      - docapisol.DeviceClientOptions.ca
+      - docapisol.DeviceClientOptions.http
+      - docapisol.DeviceClientOptions.mqtt
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Options for the Client object.  Passed into the <xref:Client.setOptions>
+      function.
+    extends:
+      name: any
+    package: docapisol
+  - uid: docapisol.DeviceClientOptions.amqp
+    name: amqp
+    fullName: amqp
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional object with options specific to the Mqtt transport
+    optional: true
+    syntax:
+      content: 'amqp?: AmqpTransportOptions'
+      return:
+        type:
+          - docapisol.AmqpTransportOptions
+    package: docapisol
+  - uid: docapisol.DeviceClientOptions.ca
+    name: ca
+    fullName: ca
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Public certificate in PEM form for certificate authority being used by the
+      Hub service.  This is the CA that the hub is using
+
+      to secure TLS connections and the client validates the connection using
+      this public cert in order to validate the identity of
+
+      the hub.  If you are connecting to an Azure IoT Hub inside of an Azure
+      data center, you do not need to set this.  If you are
+
+      connecting to some other hub (e.g. an Edge Hub), then you may need to set
+      this to the server cert that the hub uses for TLS.
+    optional: true
+    syntax:
+      content: 'ca?: string'
+      return:
+        type:
+          - string
+    package: docapisol
+  - uid: docapisol.DeviceClientOptions.http
+    name: http
+    fullName: http
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional object with options specific to the Mqtt transport
+    optional: true
+    syntax:
+      content: 'http?: HttpTransportOptions'
+      return:
+        type:
+          - docapisol.HttpTransportOptions
+    package: docapisol
+  - uid: docapisol.DeviceClientOptions.mqtt
+    name: mqtt
+    fullName: mqtt
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional object with options specific to the Mqtt transport
+    optional: true
+    syntax:
+      content: 'mqtt?: MqttTransportOptions'
+      return:
+        type:
+          - docapisol.MqttTransportOptions
+    package: docapisol
+references:
+  - uid: docapisol.AmqpTransportOptions
+    name: AmqpTransportOptions
+    spec.typeScript:
+      - name: AmqpTransportOptions
+        fullName: AmqpTransportOptions
+        uid: docapisol.AmqpTransportOptions
+  - uid: docapisol.HttpTransportOptions
+    name: HttpTransportOptions
+    spec.typeScript:
+      - name: HttpTransportOptions
+        fullName: HttpTransportOptions
+        uid: docapisol.HttpTransportOptions
+  - uid: docapisol.MqttTransportOptions
+    name: MqttTransportOptions
+    spec.typeScript:
+      - name: MqttTransportOptions
+        fullName: MqttTransportOptions
+        uid: docapisol.MqttTransportOptions
